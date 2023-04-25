@@ -1,0 +1,23 @@
+:root {
+    --primary-color: hsl(216, 89%, 52%);
+    --secondary-color: hsl(34, 78%, 56%);
+    --background-color: hsl(0, 0%, 98%);
+    --text-color: hsl(0, 0%, 10%);
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .light {
+    --background-color: var(--background-color);
+    --text-color: var(--text-color);
+  }
+  
+  .dark {
+    --background-color: hsla(188, 95%, 8%, 0.459);
+    --text-color: hsla(143, 88%, 13%, 0.568);
+  }
+  
